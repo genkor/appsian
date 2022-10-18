@@ -1,0 +1,23 @@
+﻿<execution>
+	<commands>
+		<command>
+			<name>copy</name>
+			<parameters>
+				<parameter>text1.txt</parameter>
+				<parameter>text2.txt</parameter>
+			</parameters>
+		</command>
+		<command>
+			<name>delete</name>
+			<parameters>
+				<parameter>text1.txt</parameter>
+			</parameters>
+		</command>
+		<command>
+			<name>queryfolder</name>
+			<parameters>
+				<parameter>C:\Program Files</parameter>
+			</parameters>
+		</command>
+	</commands>
+</execution>

@@ -1,0 +1,4 @@
+﻿# This is a comment
+copy,text1.txt,text2.txt
+delete,text1.txt
+queryfolder,C:\Program Files

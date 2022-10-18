@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MyPipeline" GeneratedClassName="commands">
+  <Profiles />
+  <Settings>
+    <Setting Name="Copy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="Delete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="QueryFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="CreateFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="Download" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="Wait" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="Count" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PipelineExecuter.Executer</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

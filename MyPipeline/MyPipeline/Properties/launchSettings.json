@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyPipeline": {
+      "commandName": "Project",
+      "commandLineArgs": "-f commands_example.xml"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FolderExecuter\FolderExecuter.csproj" />
+    <ProjectReference Include="..\PipelineCmdLineReader\PipelineCmdLineReader.csproj" />
+    <ProjectReference Include="..\PipelineExecuter\PipelineExecuter.csproj" />
+    <ProjectReference Include="..\PipelineModel\PipelineModel.csproj" />
+    <ProjectReference Include="..\PipelineTextReader\PipelineTextReader.csproj" />
+    <ProjectReference Include="..\PipelineXmlReader\PipelineXmlReader.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="commands.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>commands.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="commands.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>commands.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="commands_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="commands_example.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
