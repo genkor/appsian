@@ -30,3 +30,11 @@ parameters:
 
 ## In stage 4
 - Allow the **customer** to build **execute** own commands (plugins / extensions)
+
+# Implementation of the Task
+- MyPipeline uses commands configuration inside **App.config** file in the section **MyPipeline.commands**
+- MyPipeline has two command extenders (PipelineExecuter and FolderExecuter), which are loaded using reflections.
+- Compile and run the **MyPipeline** application using following commands:
+  - MyPipeline -cmd copy file1.dat file2.dat
+  - MyPipeline -file commands_example.txt
+  - MyPipeline -file commands_example.xml
